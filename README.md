@@ -1,72 +1,98 @@
 # Chicago Business License x Parcel Workflow
 
-Teaching materials and demo workflows for Chicago business-license and parcel-based spatial data analysis.
+This repository contains teaching materials and reproducible workflows for linking Chicago business licenses with parcel-level commercial land use data.
 
-## Why This Repository Exists
+Prepared by me as a **Teaching Assistant (TA)** to support class demos, student practice, and project-based learning.
 
-This repository was prepared by me in my role as a **Teaching Assistant (TA)** to support classroom demos, student practice, and reproducible geospatial data-analysis workflows.
+## What This Project Does
 
-## Project Goals
-
-- Build a parcel-first commercial analysis workflow.
-- Match business-license records to commercial parcels.
-- Export map-ready outputs (GeoParquet/GeoJSON/HTML).
-- Provide notebook-based teaching demos for step-by-step learning.
+- Builds a parcel-first commercial base from assessor / parcel datasets.
+- Joins business license records to commercial parcels.
+- Exports analysis-ready geospatial outputs (GeoParquet / GeoJSON / GPKG).
+- Produces an interactive map to explain matched and unmatched records.
 
 ## Repository Structure
 
-- `Lecture1_stu_demo.ipynb`: student-facing demo notebook.
-- `Lecture2_newdemo.ipynb`: updated parcel-first workflow notebook.
-- `Dataset/`: source datasets (licenses, assessor data, parcels).
-- `Outputs/`: generated artifacts (ignored by git).
-- `Lecture 1_stu_demo/`: lecture slides and supporting materials.
+- `Dataset/`: source datasets used in class demos.
+- `Lecture1_stu_demo/`: lecture 1 teaching slides, notebooks, and examples.
+- `Lecture1_stu_demo.ipynb`: lecture 1 student demo notebook.
+- `Lecture2_newdemo.ipynb`: parcel-first + multiyear workflow notebook.
+- `Outputs/`: generated outputs (ignored for git tracking in most cases).
+- `docs/images/`: screenshots and visual assets for this README.
 
-## Quick Start
+## Core Workflow (High-Level)
 
-1. Create and activate a Python environment (recommended: Python 3.11 or 3.12).
-2. Install core packages: `pandas`, `geopandas`, `shapely`, `pyproj`, `folium`.
-3. Open notebooks in VS Code and run cells step by step.
+1. Load parcel and assessor data for a target year.
+2. Filter to commercial parcels using land-use / class logic.
+3. Load business license data and standardize geometry.
+4. Spatially join licenses to commercial parcels.
+5. Export matched/unmatched results for analysis and map visualization.
 
-## Suggested Visuals For This README
+## Demo Visuals
 
-The **interactive map screenshot is a must-have**. In addition, these visuals are strongly recommended:
-
-1. **Interactive Map Overview (Must-have)**
-   - Show matched vs unmatched businesses on commercial parcels.
-   - Suggested filename: `docs/images/interactive-map-overview.png`
-2. **Workflow Diagram (Pipeline)**
-   - Parcel filtering -> spatial join -> export parquet/geojson -> interactive map.
-   - Suggested filename: `docs/images/workflow-pipeline.png`
-3. **Data Coverage Snapshot**
-   - Simple chart/table image: total licenses, matched records, unmatched records.
-   - Suggested filename: `docs/images/data-coverage-summary.png`
-4. **Before/After Match Comparison**
-   - Side-by-side figure showing raw license points vs parcel-joined result.
-   - Suggested filename: `docs/images/before-after-matching.png`
-5. **Output Artifacts Preview**
-   - Screenshot of exported files (GeoParquet/GeoJSON/HTML map).
-   - Suggested filename: `docs/images/output-artifacts-preview.png`
-
-## Image Placeholder Section
-
-When your images are ready, place them under `docs/images/` and uncomment/update links below.
+### 1) Interactive Map (Must-Have)
 
 ![Interactive map overview](docs/images/interactive-map-overview.png)
 
+Suggested captures:
+- Map full view at city scale.
+- One zoomed-in neighborhood example.
+- Popup details for a matched record.
+- Legend/layer controls panel.
+
+### 2) Workflow Pipeline
+
 ![Workflow pipeline](docs/images/workflow-pipeline.png)
 
-![Data coverage summary](docs/images/data-coverage-summary.png)
+Suggested content:
+- Step 1: Commercial parcel base
+- Step 2: License preprocessing
+- Step 3: Spatial join
+- Step 4: Exports (GeoJSON / Parquet)
 
-![Before and after matching](docs/images/before-after-matching.png)
+### 3) Data Join Outcome Snapshot
 
-![Output artifacts preview](docs/images/output-artifacts-preview.png)
+![Join summary table](docs/images/join-summary-table.png)
+
+Suggested content:
+- Total licenses (year)
+- Matched count / unmatched count
+- Match rate
+
+### 4) Parcel-Level Result Example
+
+![Parcel-level matched example](docs/images/parcel-level-example.png)
+
+Suggested content:
+- Example parcel geometry
+- Linked business count
+- Business activity status
+
+## Recommended Screenshot List
+
+For project storytelling, these screenshots are highly recommended:
+
+1. `interactive-map-overview.png` (city-level map intro)
+2. `interactive-map-zoom-example.png` (neighborhood zoom-in)
+3. `interactive-map-popup-example.png` (record details popup)
+4. `workflow-pipeline.png` (method explanation)
+5. `join-summary-table.png` (business result summary)
+6. `commercial-parcels-before-after.png` (filtering effect)
+7. `matched-vs-unmatched-map.png` (comparison view)
+8. `output-files-preview.png` (export deliverables)
+
+## How To Run
+
+1. Open the notebooks in VS Code or Jupyter.
+2. Use the project Python environment (`.venv`).
+3. Run `Lecture1_stu_demo.ipynb` for introductory workflow.
+4. Run `Lecture2_newdemo.ipynb` for parcel-first and multiyear workflow.
 
 ## Notes
 
-- Large generated files are excluded via `.gitignore`.
-- Keep raw datasets in `Dataset/` and generated results in `Outputs/`.
-- If a file exceeds GitHub limits, keep it local or use Git LFS.
+- Large raw/generated files are intentionally excluded from git history.
+- If a map HTML is too large, keep it in local outputs and store screenshots in `docs/images/` for documentation.
 
-## Acknowledgement
+---
 
-Prepared as TA teaching support material for the Chicago Business License x Parcel data-analysis course.
+If you want, I can also help you polish this README into a portfolio style version (with cleaner visual hierarchy and bilingual EN/ZH sections).
