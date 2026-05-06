@@ -1,119 +1,98 @@
 # Chicago Business License x Parcel Workflow
 
-This repository was prepared by me as a Teaching Assistant for a data analytics training project.
-The goal is to teach a complete geospatial workflow from raw public records to parcel-centered, map-ready outputs.
+This repository was prepared by me as a Teaching Assistant for course materials and demo workflows around Chicago business-license data, parcel data, and commercial parcel matching.
 
-## Teaching Assistant Context
-
-I prepared this project to support course delivery, student practice, and reproducible demonstrations.
-
-Main TA preparation goals:
-- Build a clear end-to-end notebook workflow for class
-- Keep data processing steps transparent and easy to explain
-- Provide reusable outputs for lecture demos and student exercises
-- Offer both single-year and multi-year examples
+The project is designed to show how to move from raw public data to reusable spatial analysis outputs. It combines business-license records, assessed-value class information, and parcel geometries so students can understand both the data-engineering side and the spatial-analysis side of the workflow.
 
 ## Project Background
 
-Chicago business license records contain business attributes and coordinates.
-Parcel datasets contain polygon boundaries and parcel identifiers.
-Assessor class mapping helps identify commercial parcels.
+Chicago business-license records contain business names, license metadata, and point locations from latitude and longitude. Parcel files contain polygon boundaries and parcel identifiers. These two sources do not come with a clean one-to-one join key for commercial analysis.
 
-The project combines these sources to answer:
-- Which commercial parcels have business activity in a selected year?
-- Which commercial parcels have no matched business points?
-- How can we export analysis-ready and map-ready datasets for downstream use?
+To solve that, the project uses a two-stage logic:
 
-## Data Sources
+1. Build a commercial parcel filter from assessor class information.
+2. Match business-license points onto parcel polygons with spatial joins.
+
+This makes it possible to identify which commercial parcels have business activity in a given year, which commercial parcels do not, and how the workflow can scale across multiple years.
+
+## Project Goals
+
+- Understand the relationship between Chicago business licenses, assessor class data, and parcel geometry.
+- Build a PIN-based commercial parcel subset before doing spatial matching.
+- Match business-license points to parcel polygons.
+- Export clean outputs for downstream analytics and mapping.
+- Demonstrate both a teaching-oriented step-by-step workflow and a parcel-first workflow.
+
+## Repository Workflows
+
+### Lecture 1: Step-by-step teaching workflow
+
+The first lecture notebook focuses on a more explicit teaching sequence:
+
+1. Introduce the project context and the main datasets.
+2. Inspect business-license data and parcel data.
+3. Build a commercial PIN-class mapping from assessed-value records.
+4. Join the commercial PIN mapping to parcel polygons.
+5. Spatially match business-license points onto commercial parcels.
+6. Export matched outputs for later analysis.
+7. Extend the workflow into a reusable multi-year pipeline.
+
+Main file:
+- `Lecture1_stu_demo.ipynb`
+
+## Lecture 2: Parcel-first commercial mapping
+
+The second lecture notebook reorganizes the same problem around commercial parcels as the main unit of analysis:
+
+1. Start from parcel polygons for one analysis year.
+2. Use the Step 1 PIN-class output to classify parcels as commercial or non-commercial.
+3. Keep commercial parcels as the base table.
+4. Load license records for the selected year.
+5. Attach business points to parcel polygons by spatial join.
+6. Preserve both matched and unmatched commercial parcels.
+7. Export parcel-centered outputs and interactive map outputs.
+8. Extend the parcel-first logic to a multi-year pipeline.
+
+Main file:
+- `Lecture2_newdemo.ipynb`
+
+## Core Data Sources
 
 - Chicago Business Licenses
-  - Local CSV used in class workflow
-  - Optional OData endpoint references in notebooks
 - Cook County Assessor Assessed Values
-  - Used to build PIN-to-class mapping
-- Parcel geometry files
-  - Local shapefiles by year under Dataset/Parcels
+- Local parcel shapefiles by year
 
-## Learning Objectives
+The notebooks use local-first paths for teaching stability, while still documenting official portal or API sources where useful.
 
-- Understand parcel-first and license-to-parcel matching logic
-- Build commercial parcel subsets from PIN-class mapping
-- Run spatial joins between license points and parcel polygons
-- Generate clean yearly outputs (Parquet, GeoJSON, GeoPackage)
-- Build interactive maps for communication and QA
+## Main Output Types
 
-## Workflow Overview (Lecture 1 and Lecture 2)
+- Commercial parcel base tables
+- Commercial parcel GeoPackage outputs
+- Matched business-license GeoParquet or Parquet outputs
+- GeoJSON outputs for map-ready sharing
+- Interactive HTML maps for parcel-first exploration
 
-### Lecture 1: Foundation Pipeline
+## Why This Project Is Useful For Teaching
 
-1. Environment and dependency setup
-2. Dataset inspection (license, assessed values, parcels)
-3. Step 1: PIN-class filtering for commercial classes
-4. Step 2: Join filtered PIN classes to parcel polygons
-5. Step 3: Spatially match license points to commercial parcels
-6. Export yearly outputs for analysis
-7. Extend to multi-year processing
+This project is useful in class because it combines several important skills in one realistic workflow:
 
-### Lecture 2: Parcel-First Commercial Mapping
+- tabular data cleaning
+- field normalization between datasets
+- PIN-based joins
+- point-in-polygon spatial joins
+- parcel-level aggregation
+- multi-year pipeline thinking
+- export design for analytics and visualization
 
-1. Build commercial parcel base table for selected year
-2. Load licenses and derive active/inactive year status
-3. Spatial join (parcel-centered view)
-4. Export final parcel-centered files
-5. Build interactive map preview
-6. Run multi-year pipeline
-7. Backfill map previews from existing GeoJSON
+It also gives students a concrete example of how public-sector business data can be reorganized into a spatial analysis product that is easier to inspect, explain, and reuse.
 
 ## Repository Structure
 
-- Lecture1_stu_demo.ipynb: Lecture 1 teaching workflow
-- Lecture2_newdemo.ipynb: Lecture 2 parcel-first workflow
-- Dataset/: Input datasets used for class demos
-- Outputs/: Generated outputs (ignored in git for large artifacts)
-- docs/images/: Suggested location for README screenshots
-
-## Suggested Visuals for Project Introduction
-
-To make the project easy to understand for students and reviewers, add screenshots to docs/images and reference them here.
-
-Recommended screenshot set:
-- Workflow overview diagram (one-page flow from source data to outputs)
-- Lecture 1 key table preview (commercial PIN-class mapping summary)
-- Lecture 2 parcel base map snapshot (commercial parcels)
-- Spatial join result preview (matched vs unmatched commercial parcels)
-- Interactive map screenshot (must-have)
-- Multi-year summary table screenshot
-
-Recommended screenshot file names:
-- docs/images/01_workflow_overview.png
-- docs/images/02_pin_class_mapping_preview.png
-- docs/images/03_commercial_parcel_base.png
-- docs/images/04_spatial_join_result.png
-- docs/images/05_interactive_map.png
-- docs/images/06_multiyear_summary.png
-
-## Interactive Map Screenshot Tips (Strongly Recommended)
-
-For your interactive map screenshot, capture one full view with:
-- Layer control panel opened
-- Matched commercial parcels visible (green)
-- Unmatched commercial parcels visible (red)
-- Business point layer visible
-- Clear title or caption showing analysis year
-
-Optional extra map screenshots:
-- Zoomed downtown area (dense business activity)
-- Peripheral area (lower density comparison)
-- Before/after layer toggle comparison
-
-## How To Update README Screenshots
-
-1. Put images into docs/images
-2. Keep the filenames stable using the naming list above
-3. Add image links to this README under a new section called Visual Gallery
+- `Dataset/`: local source data used by the notebooks
+- `Outputs/`: generated analysis outputs and map products
+- `Lecture1_stu_demo.ipynb`: teaching-oriented end-to-end workflow
+- `Lecture2_newdemo.ipynb`: parcel-first commercial mapping workflow
 
 ## Notes
 
-- Very large raw and output files are excluded from git tracking
-- Keep this repository focused on teaching notebooks and reproducible logic
-- For production pipelines, consider separate storage for heavy artifacts
+Large raw files and generated outputs are intentionally filtered from Git tracking where appropriate so the repository stays pushable and easier to share on GitHub.
