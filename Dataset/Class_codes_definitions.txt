@@ -1,0 +1,426 @@
+Revised 12/16/24 
+DEFINITIONS FOR THE 
+CLASSIFICATIONS OF REAL PROPERTY 
+I. 
+EXEMPT CLASSES 
+Major Class 0 
+II. 
+Exempt and Railroad 
+EX Exempt Property 
+RR Railroad Property 
+VACANT LAND AND VACANT LAND WITH MINOR IMPROVEMENT CLASSES 
+(10% level of assessment) 
+Major Class 1 
+III. 
+Vacant 
+1-00 Vacant Land 
+1-90 Minor Improvement on Vacant Land 
+RESIDENTIAL ASSESSMENT CLASSES (10% level of assessment) 
+Major Class 2 
+Residential 
+Regression Classes 
+2-00  Residential Land 
+2-02 One-story Residence, any age, up to 999 square feet 
+2-03 One-story Residence, any age, 1,000 to 1,800 square feet 
+2-04 One-story Residence, any age, 1,801 square feet and over 
+2-05  Two-or-more story residence, over 62 years of age up to 
+2,200 square feet 
+2-06 Two-or-more story residence, over 62 years of age, 2,201 to 
+4,9999 square feet 
+2-07 Two-or-more story residence, up to 62 years of age, and up 
+to 2,000 square feet 
+2-08 Two-or-more story residence, up to 62 years of age, 3,801 
+to 4,999 square feet 
+2-09 Two-or-more story residence, any age, 5,000 square feet 
+and over 
+2-10 Old style row house (townhome), over 62 years of age 
+1 
+2-11 Apartment building with 2 to 6 units, any age 
+2-12 Mixed-use commercial/residential building with apartment 
+and commercial area totaling 6 units or less and below 
+20,000 square feet of building area 
+2-34 Split level residence with a lower level below grade (ground 
+level) all ages, all sizes 
+2-78 Two-or-more story residence, up to 62 years of age, 2,001 
+to 3,800 square feet 
+2-95 Individually owned townhome or row house up to 62 years 
+of age 
+Non-Regression Classes 
+2-00 Residential land 
+2-01 Residential garage 
+2-13 Cooperative 
+2-18 A residential building licensed as a Bed & Breakfast by the 
+municipality, County of Cook, or registered as a Bed & 
+Breakfast with the State of Illinois under 50 ILCS 820/1 et 
+seq., with six or fewer rentable units and where one unit is 
+owner occupied and is entitled to a homeowner’s exemption 
+under the Property Tax Code 
+2-19 A residential building licensed as a Bed & Breakfast by the 
+municipality, County of Cook, or registered as a Bed & 
+Breakfast with the State of Illinois under 50 ILCS 820/1 et 
+seq., with six or fewer rentable units and where none of the 
+units are owner occupied and no homeowner’s exemption is 
+allowed under the Property Tax Code 
+2-24 Farm building 
+2-25 Single-room occupancy (“SRO”) rental building 
+2-36 Any residential area located on a parcel used primarily for 
+commercial or industrial purposes 
+2-39 Non-equalized land under agricultural use, valued at farm 
+pricing 
+2-40 First-time agricultural use of land valued at market price 
+2-41 Vacant land under common ownership with adjacent 
+residence 
+2-88 Home improvement exemption 
+2-90 Minor improvement 
+2-97 Special residential improvements (may apply to condo 
+building in first year of construction before division into 
+individual units) 
+2-99  Residential condominium 
+2 
+Major Class 3 
+Major Class 4 
+Multi-Family 
+3-00 Land used in conjunction with rental apartments 
+3-01 Ancillary structures used in conjunction with rental 
+apartments (garage, mechanical structures, storage sheds, 
+etc.) 
+3-13 Two-or-three story, building, seven or more units 
+3-14 Two-or-three-story, non-fireproof building with corridor 
+apartment or California type apartments, no corridors, 
+exterior entrance 
+3-15 Two-or-three story, non-fireproof corridor apartments or 
+California type apartments, interior entrance 
+3-18 All mixed-use commercial/residential buildings under        
+20,000 square feet of area with 7 units or more and mixed
+use commercial/residential buildings with an area of 20,000 
+to 99,999 square feet where no more than 60% of the 
+building is used for commercial purposes. 
+(For mixed-use buildings that do not meet the parameters of 
+this subcategory or qualify as Class 2 property, the portion of 
+the building used for residential purposes will be assessed 
+as the appropriate subcategory of residential property and 
+the commercially used portion will be assessed as 
+commercial property.)    
+3-91  Apartment building over three stories, seven or more units  
+3-96  Rented modern row houses, seven or more units in a single 
+development or one or more contiguous parcels in common 
+ownership 
+3-97 Special rental structure 
+3-99 Rental condominium 
+Not-For-Profit (20% level of assessment) 
+4-00 Not-for-profit land 
+4-01 Not-for-profit ancillary structures used in conjunction with 
+commercial non-profit improvements (garage, mechanical 
+structures, storage sheds, etc.) 
+4-17 Not-for-profit one-story commercial building 
+4-18 Not-for-profit two-or-three story mixed-use commercial/ 
+residential building 
+4-22 Not-for-profit one-story non-fireproof public garage 
+3 
+4-23 Not-for-profit gasoline station 
+4-26 Not-for-profit commercial greenhouse 
+4-27 Not-for-profit theatre 
+4-28 Not-for-profit bank building 
+4-29 Not-for-profit motel 
+4-30 Not-for-profit supermarket 
+4-31 Not-for-profit shopping center 
+4-32 Not-for-profit bowling alley 
+4-33 Not-for-profit Quonset hut or butler type building 
+4-80 Not-for-profit industrial minor improvement 
+4-81 Not-for-profit ancillary structures used in conjunction with 
+industrial non-profit improvements (garage, mechanical 
+structures, storage sheds, etc.) 
+4-83 Not-for-profit industrial Quonset hut or butler type building 
+4-87 Not-for-profit special industrial improvement 
+4-89 Not-for-profit industrial condominium 
+4-90 Not-for-profit commercial minor improvement 
+4-91 Not-for-profit improvement over three stories 
+4-92 Not-for-profit, two-or-three story building containing part of 
+all retail and/or commercial space 
+4-93 Not-for-profit industrial building 
+4-96 Not-for-profit, rented modern row houses, seven or more 
+units in a single development 
+4-97 Not-for-profit special structure 
+4-99 Not-for-profit condominium 
+IV. 
+COMMERCIAL  AND  INDUSTRIAL  ASSESSMENT  CLASSES  (25% level of 
+assessment) 
+Major Class 5A 
+Commercial 
+5-00 Commercial land 
+5-01 Ancillary structures used in conjunction with commercial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+5-16 Non-fireproof hotel or rooming house (apartment hotel) 
+5-17 One-story, commercial building or area 
+5-22 Automotive related improvement 
+5-23 Gasoline station 
+5-26 Commercial greenhouse 
+5-27 Theatre 
+5-28 Bank building 
+5-29 Motel 
+4 
+5-30 Supermarket 
+5-31 Shopping center 
+5-32 Bowling alley 
+5-33 Quonset hut or butler type building 
+5-35 Golf course land/improvement 
+5-90 Commercial minor improvement 
+5-91 Commercial building over three stories 
+5-92 Two-or-three story building containing part of all retail and/or 
+commercial space 
+5-97 Special commercial structure 
+5-99 Commercial condominium unit 
+Major Class 5B 
+V. 
+Industrial 
+5-50  Industrial land 
+5-80 Industrial minor improvement 
+5-81 Ancillary structures used in conjunction with industrial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+5-83 Industrial Quonset hut or butler type building 
+5-87 Special industrial improvement 
+5-89 Industrial condominium unit 
+5-93 Industrial building 
+INCENTIVE ASSESSMENT CLASSES (levels of assessment identified in Sec. 
+V. Incentive Class CDUs) 
+Major Class 6 
+Industrial Incentive Classes 
+Class 6b 
+6-51 Industrial land 
+6-63 Industrial building 
+6-70 Industrial minor improvement 
+6-71 Ancillary structures used in conjunction with industrial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+6-73 Industrial Quonset hut or butler type building 
+6-77 Special industrial improvement 
+6-79  Industrial condominium unit 
+6-81 Ancillary structures used in conjunction with industrial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+5 
+Major Class 7 
+Commercial Incentive Classes 
+Class 7a (total development costs exclusive of land < $2,000,000) 
+7-00 Commercial Incentive Land 
+7-01 Ancillary structures used in conjunction with commercial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+7-16 Non-fireproof hotel or rooming house (apartment hotel) 
+7-17 One-story commercial use building 
+7-22 Automotive related improvement 
+7-23 Gasoline station, with or without bays, store 
+7-26 Commercial greenhouse 
+7-27 Theatre 
+7-28 Bank building 
+7-29 Motel 
+7-30 Supermarket 
+7-31 Shopping center 
+7-32 Bowling alley 
+7-33 Quonset hut or butler type building 
+7-35 Golf course improvement 
+7-90 Minor commercial improvement 
+7-91 Office building 
+7-92 Two-or-three-story building containing part of all retail and/or 
+commercial space 
+7-97 Special commercial structure 
+7-99 Commercial/Industrial condominium unit/garage 
+Class 7b (total development costs exclusive of land > $2,000,000) 
+7-42 Commercial incentive land 
+7-43 Ancillary structures used in conjunction with commercial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+7-45 Golf course improvement 
+7-46 Non-fireproof hotel or rooming house (apartment hotel) 
+7-47 One-story commercial building 
+7-48 Motel 
+7-52 Automotive related improvement 
+7-53 Gasoline station, with or without bays, store 
+7-56 Commercial greenhouse 
+7-57 Theatre 
+7-58 Bank building 
+7-60 Supermarket 
+7-61 Shopping center (regional, community, neighborhood, 
+promotional, specialty) 
+6 
+7-62 Bowling alley 
+7-64 Quonset hut or butler type building 
+7-65 Other minor commercial improvements 
+7-67 Special commercial structure 
+7-72 Two-or-three-story building, containing part or all retail 
+and/or commercial space 
+7-74 Office building 
+7-98 Commercial/Industrial condominium units/garage 
+Class 7c – Commercial Urban Relief Eligibility (CURE) 
+(Reflected in 7a or 7b, depending on total development costs) 
+Major Class 8 
+Commercial/Industrial Incentive 
+8-00 Commercial incentive land 
+8-01 Ancillary structures used in conjunction with commercial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+8-16 Non-fireproof hotel or rooming house (apartment hotel) 
+8-17 One-story commercial building 
+8-22 Automotive related improvement 
+8-23 Gasoline station with or without bays, store 
+8-27 Theatre 
+8-28 Bank building 
+8-29 Motel 
+8-30 Supermarket 
+8-31 Shopping center (regional, community, neighborhood, 
+promotional, specialty) 
+8-32 Bowling alley 
+8-33 Quonset hut or butler type building 
+8-35 Golf course improvement 
+8-80 Minor industrial improvement 
+8-81 Ancillary structures used in conjunction with industrial 
+improvements (garage, mechanical structures, storage 
+sheds, etc.) 
+8-90 Minor commercial improvement 
+8-91 Office building 
+8-92 Two-or-three-story building containing part of all retail and/or 
+commercial space 
+8-93 Industrial building 
+8-97 Special commercial structure 
+8-99 Commercial/Industrial condominium unit/garage 
+7 
+Major Class 9 
+Class 3 Multi-Family Residential Real Estate Incentive 
+(10% level of assessment) 
+9-00 Land used in conjunction with incentive rental apartments 
+9-01 Ancillary structures used in conjunction with rental 
+apartments (garage, mechanical structures, storage sheds, 
+etc.) 
+9-13 Two-or-three-story apartment building, seven or more units 
+9-14  Two-or-three-story  non-fireproof  court  and  corridor 
+apartments or California type apartments, no corridors, 
+exterior entrance 
+9-15 Two-or-three-story non-fireproof corridor apartments, or 
+California type apartments, interior entrance 
+9-18 Mixed-use commercial/residential building with apartments 
+and commercial area where the commercial area is granted 
+an incentive use 
+9-59 Rental condominium unit 
+9-90 Other minor improvements 
+9-91 Apartment buildings over three stories 
+9-96 Rented modern row houses, seven or more units in a single 
+development or one or more contiguous parcels in common 
+ownership 
+9-97 Special rental structure 
+8 
+Major Class C 
+Major Class L 
+Historic Residence 
+Assessment Freeze 
+Affordable Housing 
+Special Assessment 
+Program 
+Commercial/Industrial Remediation Incentive 
+6-37 Commercial incentive land  
+6-38 Commercial incentive improvement  
+6-54 Other commercial or industrial minor improvements  
+6-55 Ancillary 
+structures 
+used 
+in 
+conjunction 
+with 
+commercial/industrial improvements (garage, mechanical 
+structures, storage sheds, etc.) 
+6-66 Quonset hut or butler type building 
+6-68 Special commercial/industrial incentive improvement 
+6-69 Commercial/industrial condominium unit 
+(Reflected in Major Class 3, 4, 5, and 6) 
+(Reflected in Major Class 2 and 3) 
+(Reflected in Major Class 3) 
+9 
+VI. 
+INCENTIVE ASSESSMENT CLASS CDUS 
+The CDU represents the field in the Assessor’s exclusive property records that identifies the 
+two-letter code assigned to the specific incentive assessment class applied to a property. 
+Major Class 6b 
+CDU = “PB” 
+CDU = “SC” 
+CDU = “SE” 
+Major Class 7a 
+CDU = “CM” 
+Industrial properties: Ten percent for first ten years and for any 
+subsequent ten-year renewal periods; if the incentive is not 
+renewed, 15 percent in year 11 and 20 percent in year 12. 
+Industrial properties in the Critical Emergency Employee 
+Retention Modification (CEERM) Program: Ten percent for 12 
+years, not renewable. 
+Industrial properties in the Sustainable Emergency Relief (SER) 
+Program: Ten percent for first 12 years, not renewable. 
+Commercial properties, under $2,000,000: Ten percent for first ten 
+years, 15 percent in year 11 and 20 percent in year 12. 
+Major Class 7b 
+CDU = “CB” 
+Commercial properties, over $2,000,000: Ten percent for first ten 
+years, 15 percent in year 11 and 20 percent in year 12. 
+Major Class 7c – Commercial Urban Relief Eligibility (CURE) 
+CDU = “CU” 
+Major Class 8 
+CDU = “RI” 
+Commercial properties, any dollar amount: Ten percent for first 
+three years, 15 percent in year four and 20 percent in year five. 
+Limited to one renewal. 
+Industrial properties: Ten percent for first ten years and for any 
+subsequent ten-year renewal periods; if the incentive is not 
+renewed, 15 percent in year 11 and 20 percent in year 12 
+(includes properties located in an Industrial Growth Zone). 
+10 
+CDU = “RC” 
+CDU = “EC” 
+Major Class 9 
+CDU = “AP” 
+Major Class C 
+CDU = “BF” 
+Major Class L 
+CDU = “CM” 
+Major Class S 
+CDU = “SS” 
+Historic Residence 
+Assessment Freeze 
+Commercial properties: Ten percent for first ten years and for any 
+subsequent ten-year renewal periods; if the incentive is not 
+renewed, 15 percent in year 11 and 20 percent in year 12 
+Commercial properties: Ten percent for first ten years and for any 
+subsequent ten-year renewal periods; if the incentive is not 
+renewed, 15 percent in year 11 and 20 percent in year 12 
+(includes properties in the Critical Emergency Employee 
+Retention Modification (CEERM) Program) 
+Class 3, multi-family rental apartments: Ten percent for an initial 
+ten-year period, renewable upon application for additional ten- 
+year periods. 
+Industrial properties: Ten percent for first ten years, 15 percent in 
+year 11 and 20 percent in year 12; Commercial properties: Ten 
+percent for first ten) years, 15 percent in year 11 and 20 percent in 
+year 12. 
+Renewable properties: Ten percent for first ten years and for any 
+subsequent ten-year renewal periods; if the incentive is not 
+renewed, 15 percent in year 11 and 20 percent in year 12; 
+Commercial properties: Ten percent for first ten years, 15 percent 
+in year 11 and 20 percent in year 12. 
+Class 3 multi-family properties subject to a Section 8 contract 
+renewal: Ten percent for the term of the Section 8 contract 
+renewal under the mark up to market option, as defined in the 
+ordinance, and for any additional terms of renewal of the Section 
+8 contract under the mark up to market option. 
+Historic Residence Assessment Freeze Law, 35 ILCS 200/10-40 
+11 
+CDU = “LR” 
+Historic residences: assessment freeze for 8 years, not to exceed 
+the base year value (FMV of the property in the year in which the 
+rehabilitation period begins but before rehabilitation commences, 
+with an adjustment valuation period of 4 years following the initial 
+8-year valuation period. 
+Affordable Housing SAP Reduction in assessed value for affordable rental housing 
+construction or rehabilitation, 35 ILCS 200/15-178 
+CDU = “AX” 
+Multi-family properties, 7 units or more: visit the Assessor’s 
+website at: https://www.cookcountyassessor.com/affordable- 
+housing 
+12 

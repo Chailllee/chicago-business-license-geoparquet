@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "git-push-main",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"push",
+				"-u",
+				"origin",
+				"main"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "git-push-main-retry",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"push",
+				"-u",
+				"origin",
+				"main"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "git-push-main-http11",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"-c",
+				"http.version=HTTP/1.1",
+				"push",
+				"-u",
+				"origin",
+				"main"
+			],
+			"isBackground": false
+		}
+	]
+}
