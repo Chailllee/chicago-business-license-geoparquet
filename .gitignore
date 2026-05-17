@@ -7,3 +7,4 @@ __pycache__/
 # Large dataset files (>100MB, exceeds GitHub limit)
 Dataset/Business_Licenses_20260424.csv
 Dataset/Parcels/
+Dataset/Samples/
